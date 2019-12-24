@@ -1,0 +1,16 @@
+name,orange
+shooter,true
+town,Castle
+attackPower,6
+defencePower,3
+minAttackDamage,2
+maxAttackDamage,3
+healthPoints,10
+healthPointsLeft,10
+moveRange,4
+initiative,4
+quantity,10
+x,1
+y,1
+isDefending,false
+isDead,false

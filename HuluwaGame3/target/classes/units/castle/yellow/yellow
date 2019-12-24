@@ -1,0 +1,16 @@
+name,yellow
+shooter,false
+town,Castle
+attackPower,15
+defencePower,15
+minAttackDamage,15
+maxAttackDamage,25
+healthPoints,100
+healthPointsLeft,100
+moveRange,7
+initiative,7
+quantity,10
+x,1
+y,1
+isDefending,false
+isDead,false

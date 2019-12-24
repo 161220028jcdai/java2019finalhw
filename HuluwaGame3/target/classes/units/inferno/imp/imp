@@ -1,0 +1,16 @@
+name,Imp
+shooter,false
+town,Inferno
+attackPower,2
+defencePower,3
+minAttackDamage,1
+maxAttackDamage,2
+healthPoints,4
+healthPointsLeft,4
+moveRange,5
+initiative,5
+quantity,10
+x,1
+y,1
+isDefending,false
+isDead,false

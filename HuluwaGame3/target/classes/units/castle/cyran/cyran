@@ -1,0 +1,16 @@
+name,cyran
+shooter,true
+town,Castle
+attackPower,12
+defencePower,7
+minAttackDamage,10
+maxAttackDamage,12
+healthPoints,30
+healthPointsLeft,30
+moveRange,5
+initiative,5
+quantity,10
+x,1
+y,1
+isDefending,false
+isDead,false

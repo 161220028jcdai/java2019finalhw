@@ -1,0 +1,16 @@
+name,HellHound
+shooter,false
+town,Inferno
+attackPower,10
+defencePower,6
+minAttackDamage,2
+maxAttackDamage,7
+healthPoints,25
+healthPointsLeft,25
+moveRange,7
+initiative,7
+quantity,10
+x,1
+y,1
+isDefending,false
+isDead,false
