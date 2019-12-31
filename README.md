@@ -11,7 +11,7 @@
  
 # 二、游戏效果  
 开始界面如下。目前实现的功能有开始游戏、历史回放、关于游戏的说明、退出游戏。  
-！[开始界面](https://github.com/161220028jcdai/java2019finalhw/blob/master/frame.png)  
+![开始界面](https://img-blog.csdnimg.cn/20181231213848336.png)  
   
 点击开始游戏即可进入战场，进入以后按空格键开始游戏，我们模拟一次战斗  
 ![战斗模拟](https://img-blog.csdnimg.cn/20181231214109403.gif)  
@@ -31,7 +31,7 @@ Creature.java中定义了creature这一接口，因为游戏里这些角色有�
 Position类作为辅助类用来表示角色在地图上的位置坐标（x，y）。field里调用了position类来控制生物体的位置同时利用线程系统来进行角色的行动。Creature类含有Runnable接口，通过调用run()方法进行线程的运行。每个角色就是一个线程。在角色run之后，进行一个直到角色死亡或者游戏结束才会停止的循环  
 
 ## 3、frame窗口界面  
-![frame结构](https://img-blog.csdnimg.cn/20181231225229748.png)  
+![frame结构](https://github.com/161220028jcdai/java2019finalhw/blob/master/frame.png)  
 animation里设置定时器延时来实现动画的感觉。  
 controller里面用来图像化上述所有的信息。与一个FXML文件绑定，从中读取UI界面的初始控件并对界面进行各种操作。在界面上贴图片使用Canvas画布控件，用内部方法实时更新战场信息，即将各个角色图片画上去。  
 filemodel用来保存战斗导出到一个文件中去。  
