@@ -249,7 +249,7 @@ public class Controller {
 
     @FXML
     void clickAboutButton(MouseEvent event){
-        String cmd = "rundll32 url.dll,FileProtocolHandler https://blog.csdn.net/qq_37756187/article/details/85493544";
+        String cmd = "rundll32 url.dll,FileProtocolHandler https://github.com/161220028jcdai/java2019finalhw/blob/master/README.md";
         Runtime rt = Runtime.getRuntime();
         try {
             rt.exec(cmd);

@@ -264,7 +264,7 @@ public class Field {
     }
 
     public void showBadGuyWin(){
-        //妖怪胜利 清空进程 摆造型
+        //妖怪洗胜利 清空进程 摆造型
         setRunAllThread(false);
         CleanField();
         for (int i = 0; i < 3; i++) {
