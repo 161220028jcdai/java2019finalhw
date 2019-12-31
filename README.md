@@ -11,7 +11,7 @@
  
 # 二、游戏效果  
 开始界面如下。目前实现的功能有开始游戏、历史回放、关于游戏的说明、退出游戏。  
-！[开始界面](https://img-blog.csdnimg.cn/20181231213848336.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3NzU2MTg3,size_16,color_FFFFFF,t_70)  
+！[开始界面](https://github.com/161220028jcdai/java2019finalhw/blob/master/frame.png)  
   
 点击开始游戏即可进入战场，进入以后按空格键开始游戏，我们模拟一次战斗  
 ![战斗模拟](https://img-blog.csdnimg.cn/20181231214109403.gif)  
